@@ -17,7 +17,7 @@ Path = ('/usr/lib/python' +
 try:
     import passwd
 except Exception as e:
-    print("This is the first tiem that this is run for this Python.", e)
+    print("This is the first time that this is run for this Python.", e)
     with open(Path, 'w') as file_obj:
         Data = ('#!/usr/bin/python3\n# -*- coding: utf-8 -*-\n\n')
         file_obj.write(Data)
